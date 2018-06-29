@@ -1,3 +1,15 @@
+<?php
+
+session_start();
+
+if (isset($_SESSION['nom'])) {
+  header('Location: accueil.php');
+}
+
+
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
